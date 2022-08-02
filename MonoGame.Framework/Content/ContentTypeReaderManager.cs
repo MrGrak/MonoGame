@@ -74,7 +74,6 @@ namespace Microsoft.Xna.Framework.Content
                 var hVector2Reader = new Vector2Reader();
                 var hVector3Reader = new Vector3Reader();
                 var hVector4Reader = new Vector4Reader();
-                var hCurveReader = new CurveReader();
                 var hIndexBufferReader = new IndexBufferReader();
                 var hBoundingBoxReader = new BoundingBoxReader();
                 var hMatrixReader = new MatrixReader();

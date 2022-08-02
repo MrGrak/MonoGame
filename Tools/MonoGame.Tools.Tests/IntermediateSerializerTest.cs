@@ -495,19 +495,5 @@ namespace MonoGame.Tests.ContentPipeline
             });
         }
 
-        [Test]
-        public void XnaCurve()
-        {
-            SerializeAndAssert("28_XnaCurve.xml", new Curve
-            {
-                PreLoop = CurveLoopType.Constant,
-                PostLoop = CurveLoopType.Constant,
-                Keys =
-                {
-                    new CurveKey(0,1,0,0,CurveContinuity.Smooth),
-                    new CurveKey(0.5f,0.5f,0,0,CurveContinuity.Smooth)
-                }
-            });
-        }
     }
 }
